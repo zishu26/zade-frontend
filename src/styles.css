@@ -1,0 +1,87 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+  
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+
+
+  .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: darkorange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkorange;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.my-component {
+  background-color: darkcyan;
+}
+
+.my-component-navbar {
+  color: salmon;
+}
+
+.my-dom-height {
+  height: 1000px;
+}
+
+.table-head-color {
+  color: rgb(220, 255, 80);
+}
+
+.table-body-color {
+  background-color: rgb(255, 123, 0);
+}
+
+.button-color{
+background-color: aquamarine;
+}
+
+.navbar-color{
+  background-color:aquamarine
+}
+
+.table-outer{
+background-color: antiquewhite
+}
+
+.table-container {
+max-height: 650px; 
+overflow-y: auto;
+}
+
+.my-margin{
+margin-top: 10px;
+}
+
